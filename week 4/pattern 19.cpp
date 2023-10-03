@@ -2,16 +2,16 @@
 int main()
 {
 	int i,s,j;
-	for(i=3;i<=6;i++)
+	for(i=1;i<=4;i++)
 	{printf("%d",i);
-	for(j=3;j<=i;j++)
+	for(j=1;j<i;j++)
 	printf("*%d",i);
 	printf("\n");
 	}  
-	for(i=3;i<=6;i++)
+	for(i=1;i<=4;i++)
 	{printf("%d",5-i);
-	for(j=0;j<=6-i;j++)
-	printf("*%d",(9-i));
+	for(j=1;j<=4-i;j++)
+	printf("*%d",(5-i));
 	printf("\n");
 	}
 	return 0;
