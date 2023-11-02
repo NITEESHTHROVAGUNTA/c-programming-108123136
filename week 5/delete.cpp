@@ -9,14 +9,14 @@ int main()
 	scanf("%d",&arr[i]);
 	for(j=0;j<n;j++)
 	{
-	for(i=0;i<n;i++)
+	for(i=j+1;i<n;i++)
 	{
 		if(arr[j]==arr[i]){
 		for(k=i;k<n;k++){
 		k=i;
 		arr[k]=arr[k+1];
 	}n--;i--;
-	}}
+	}}}
 	for(i=0;i<n;i++)
 	printf("%d",arr[i]);
 		
