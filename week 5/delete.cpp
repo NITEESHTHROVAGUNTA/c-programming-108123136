@@ -11,12 +11,11 @@ int main()
 	{
 	for(i=0;i<n;i++)
 	{
-		if(arr[j]=arr[i]){
-		for(t=n-1;t>=i;t--)
-		k=i;
-		v=arr[k+1];
+		if(arr[j]==arr[i]){
+		for(k=i;k<n;k++){
+		k=i;
 		arr[k]=arr[k+1];
-		k++;}
+	}n--;i--;
 	}}
 	for(i=0;i<n;i++)
 	printf("%d",arr[i]);
