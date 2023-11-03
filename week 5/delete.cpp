@@ -13,7 +13,7 @@ int main()
 	{
 		if(arr[j]==arr[i]){
 		for(k=i;k<n;k++){
-		k=i;
+
 		arr[k]=arr[k+1];
 	}n--;i--;
 	}}}
